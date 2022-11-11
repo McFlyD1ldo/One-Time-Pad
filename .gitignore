@@ -16,6 +16,9 @@
 # Mono auto generated files
 mono_crash.*
 
+# eigene
+clDarkTitleBar/
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
