@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btnEncrypt = new System.Windows.Forms.Button();
             this.btnSaveFile = new System.Windows.Forms.Button();
             this.btnLoadFile = new System.Windows.Forms.Button();
@@ -126,8 +127,10 @@
             this.Controls.Add(this.lblText);
             this.Controls.Add(this.lblHeader);
             this.Controls.Add(this.rtbInput);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Opacity = 0.99D;
+            this.Text = "OTP";
             this.ResumeLayout(false);
             this.PerformLayout();
 
